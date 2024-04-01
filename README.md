@@ -10,7 +10,6 @@ Free tool QuickDBD ( https://www.quickdatabasediagrams.com/ ) is used for data m
 An ETL pipeline is developed using Python, Pandas, both Python dictionary methods and regular expressions to extract and transform the data. After transforming the
 
 data, four CSV files are created and are used to create an Entity Relationship Diagram(ERD) and a table schema. Finally, the CSV file data is re uploaded into a 
-
 Postgres database.
 
 
