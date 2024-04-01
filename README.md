@@ -2,13 +2,11 @@
 
 
 Project Outline: A relational (SQL) database is the final product to be used for the production environment. Data extraction and transformation is performed using 
-
 python with the following packages: pandas, numpy and date time. The cleaned data is loaded into the relational database using pgAdmin for storage and management. 
 
 Free tool QuickDBD ( https://www.quickdatabasediagrams.com/ ) is used for data modelling by sketching an Entity Relationship Diagram of the tables.
 
 An ETL pipeline is developed using Python, Pandas, both Python dictionary methods and regular expressions to extract and transform the data. After transforming the
-
 data, four CSV files are created and are used to create an Entity Relationship Diagram(ERD) and a table schema. Finally, the CSV file data is re uploaded into a 
 Postgres database.
 
@@ -34,7 +32,6 @@ Tools used:
 Crowdfunding Data Processing
 
 This repository contains Python code for processing crowdfunding data from an Excel file, extracting information, cleaning, and organizing it, and exporting it as 
-
 CSV files. Below is an overview of the code functionality and how to use it.
 
 
@@ -98,7 +95,6 @@ Contact information is extracted from contacts.xlsx and processed to create a CS
 Database Schema
 
 This repository also contains SQL code for creating and defining a relational database schema for managing crowdfunding data. Below is an overview of the database 
-
 schema, table structures, and foreign key constraints.
 
 
@@ -118,7 +114,6 @@ The provided SQL script creates the following tables:
 Foreign Key Constraints
 
 Foreign key constraints are added to the campaign table to reference the contacts, category, and subcategory tables based on their respective IDs, and maintain 
-
 referential integrity between tables.
 
 
